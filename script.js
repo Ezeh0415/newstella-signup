@@ -1,4 +1,4 @@
- retur = document.getElementById("memo");
+let retur = document.getElementById("memo");
 let error = document.getElementById("demo");
 let man = document.getElementById("man");
 let jsfun = document.getElementById("jsfun");
