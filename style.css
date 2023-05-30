@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+  background-color: black;
+}
+
+#deskimg{
+    width:200px;
+    border-radius: 20px;
+}
+.mobileimg{
+    display:none;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: row-reverse;
+    border:solid 1px transparent;
+    width:500px;
+    margin:10% 0 0 25%;
+    padding:10px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px whitesmoke; box-shadow: -3px -3px 10px whitesmoke;
+    overflow: hidden;
+}
+
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+#text{
+    font-size: small;
+    font-weight: 700;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+#inpdiv{
+   margin-top: 10px;
+}
+
+#inp1{
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+i{
+    font-size: small;
+    margin-left: 8px;
+    font-weight: bold;
+    color:black;
+}
+span{
+    margin-top: 4px;
+    color: orange;
+}
+
+
+#lab{
+    font-size: x-small;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+#email{
+    width:80%;
+    height:25px;
+    margin-left: 9%;
+    padding:10px;
+}
+
+#btn{
+    margin-top: 10px;
+    width:80%;
+    height:25px;
+    margin-left: 9%;
+    color:white;
+    background-color: black;
+
+}
+#btn:hover{
+    background-color: orange;
+}
+
+
+/* RETURN MESSAGE */
+
+
+#thanks{
+    border:solid 2px;
+    width:250px;
+    height:300px;
+    display: grid;
+    margin-top: 15%;
+    margin-left: 35%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+#spa{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#demo{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#th{
+    text-align: start;
+    margin:10px;
+}
+
+#move{
+    margin-top:-20px;
+    margin-left: 10px;
+    background-color: white;
+    width:220px;
+    height:40px;
+    color:white;
+    background-color: black;
+    border-radius: 10px;;
+}
+
+#move:hover{
+    background-color: orange;
+}
+#jsfun{
+    display:none;
+}
+/*JAVA SCRIPT TOGGLE*/
+#man.display1{
+    display:none;
+}
+
+#jsfun.display2{
+    display:block;
+}
+
+#man.display3{
+    display:block;
+}
+
+#jsfun.display4{
+    display:none;
+}
+
+/*JAVASCRIPT TOGGLE*/
+
+@media screen and (max-width:767px) {
+    #main{
+        display: block;
+        flex-direction: row-reverse;
+        border:solid 1px transparent;
+        width:375px;
+        height:660px;
+        margin:0 0 0 0;
+        padding:10px;
+        background-color: white;
+        border-radius:0 0 30px 30px ;
+        box-shadow: 5px 5px 10px whitesmoke; box-shadow: -3px -3px 10px whitesmoke;
+    }
+
+    .mobileimg{
+        display:block;
+        width:365px;
+        position: relative;
+        top:-10px;
+        right:9px;
+        border-radius: 0 0 20px 20px ;
+        
+    }
+    #deskimg{
+        display:none;
+    }
+
+
+    h2{
+        font-size: 40px;
+        text-align: start;
+        margin-left:10px;
+        margin-top: 22px;
+    }
+    #text{
+        font-size: medium;
+        font-weight: 700;
+        margin-left: 11px;
+        margin-top: 15px;
+    }
+    i{
+        font-size: medium;
+        margin-left: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+        #lab{
+            font-size: small;
+            margin-top: 15px;
+            font-weight: bolder;
+        }
+        #email{
+            width:80%;
+            height:27px;
+            margin-left: 9%;
+            padding:20px;
+        }
+        #btn{
+            margin-top: 25px;
+            width:80%;
+            height:45px;
+            margin-left: 9%;
+            color:white;
+            background-color: black;
+            padding:15px;
+            text-align: center;
+        }
+        #btn:hover{
+            background-color: orange;
+        }
+/*  THANKS POPUP*/
+   #thanks{
+           position:relative;
+           top:-53px;
+            right:29%;
+            border:solid 2px;
+            margin-left:30%;
+            width:370px;
+            height:650px;
+            display: grid;
+            border-radius: 0 0 15px 15px;
+            background-color: white;
+        }
+
+        #spa{
+            font-size: 150px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        
+        #memo{
+            margin-top: 0px;
+            text-align: start;
+        }
+        
+        #th{
+            text-align: start;
+            margin:10px;
+            margin-top: 10PX;
+        }
+        
+        #move{
+            margin-top:40px;
+            margin-left: 10px;
+            background-color: white;
+            width:350px;
+            height:50px;
+            color:white;
+            background-color: black;
+            border-radius: 10px;;
+        }
+        
+        #move:hover{
+            background-color: orange;
+        }
+}
