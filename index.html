@@ -33,11 +33,15 @@
                         <span class="fa fa-check-circle"><i>And much more</i></span>
                     </div>
                     <div id="foemdiv">
-                        <p id="lab">Email address</p></span>
-                        <br>
-                        <input type="email" name="email"  id="email" placeholder="email@company.come" required/>
+                        <form>
+                            <p id="lab">Email address</p></span>
+                            <br>
+                            <input type="email" name="email"  id="email" placeholder="email@company.come" required/>
+                            <small id="demo"></small>
+                        
                     </div>
-                    <button type="button" id="btn" onclick="getvalue()">subscribe to montly newsletter</button>
+                             <button type="button" id="btn" onclick="getValue()">subscribe to montly newsletter</button>
+                        </form>
                 </div>
             </div>
 
@@ -49,7 +53,7 @@
                 <div id="thanks">
                     <span id="spa" class="fa fa-check-circle"></span>
                     <h2 id="th">Thanks for subscribing!</h2>
-                    <i id="memo">A confermation email has been sent to   <i id="demo"></i>  please open it and click the button inside to conferm your subscription</i>
+                    <i id="memo"></i>
                     <br>
                     <button type="button" id="move">Dismiss Message</button>
                 </div>

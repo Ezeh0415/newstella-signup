@@ -139,6 +139,9 @@ span{
 }
 #jsfun{
     display:none;
+    transition-property: display;
+    transition-duration:2s;
+    transition-delay:.1s;
 }
 /*JAVA SCRIPT TOGGLE*/
 #man.display1{
@@ -155,6 +158,10 @@ span{
 
 #jsfun.display4{
     display:none;
+}
+
+#demo{
+ margin-left:30%;
 }
 
 /*JAVASCRIPT TOGGLE*/
