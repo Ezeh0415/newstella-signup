@@ -6,13 +6,14 @@ let jsfun = document.getElementById("jsfun");
 
 function getValue() {
   var emailfil = document.getElementById("email").value;
-  if (emailfil === "" ) {
+  if (emailfil === "" || emailfil === "@gmail.com" ) {
      error.innerHTML = "please enter valid email";
+     return false;
   }else {
     man.classList.toggle("display1");
     jsfun.classList.toggle("display2");
     retur.innerHTML = `A confermation email has been sent to ${emailfil} please open it and click the button inside to conferm your subscription`; 
-
+       return true;
   }
 }
 
