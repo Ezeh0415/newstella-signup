@@ -24,7 +24,7 @@ document.getElementById("move").addEventListener("click", function(){
  let deskimg = $("#deskimg");
 
  deskimg.css({
-   width:260,
+   width:200,
    position:"relative",
    left: 10,
  });
@@ -39,22 +39,21 @@ document.getElementById("move").addEventListener("click", function(){
    width:350,
    position:"relative",
    top:-10,
-   right:15,
    padding:40,
    left:40,
  })
  
  $("#memo").css({
    position:"relative",
-   top:-20
+   top:-35
  })
  
  $("#th").css({
    position:"relative",
-   top:-15
+   top:-20
  })
  
  $("#spa").css({
    position:"relative",
-   top:-15
+   top:-25
  })
