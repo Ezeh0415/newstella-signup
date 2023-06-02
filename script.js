@@ -20,3 +20,41 @@ document.getElementById("move").addEventListener("click", function(){
     man.classList.toggle("display3");
     jsfun.classList.toggle("display4");
  });
+
+ let deskimg = $("#deskimg");
+
+ deskimg.css({
+   width:260,
+   position:"relative",
+   left: 10,
+ });
+ 
+ 
+ $("#headers").css({
+   position:"relative",
+   top:40,
+ })
+ 
+ $("#thanks").css({
+   width:350,
+   position:"relative",
+   top:-10,
+   right:15,
+   padding:40,
+   left:40,
+ })
+ 
+ $("#memo").css({
+   position:"relative",
+   top:-20
+ })
+ 
+ $("#th").css({
+   position:"relative",
+   top:-15
+ })
+ 
+ $("#spa").css({
+   position:"relative",
+   top:-15
+ })
